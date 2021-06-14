@@ -34,9 +34,7 @@ import Svg, { Circle, G, Rect, Ellipse, Line } from 'react-native-svg';
 
 const SunSVG = (props) => {
     return (
-        <Svg width="160" height="314" xmlns="http://www.w3.org/2000/svg"
-        // viewBox='0 0 100 100'
-        >
+        <Svg width="160" height="314" xmlns="http://www.w3.org/2000/svg">
             <G>
                 <Ellipse stroke="none" ry="157" rx="157" id="svg_3" cy="157" cx="157" fill="#FB4"/>
                 <Line fill="none" x1="156.19878" y1="81.94323" x2="156.19878" y2="16.94323" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#FFF" strokeWidth="10"/>
